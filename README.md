@@ -1,4 +1,4 @@
-#Pomelo javascript websocket client
+# Pomelo javascript websocket client
 
 The javascript websocket client library for [Pomelo](https://github.com/NetEase/pomelo).
 
@@ -10,7 +10,7 @@ Since there are two kind connectors in pomelo 0.3, socket.io and socket(websocke
 The apis are almost the same in both clients, except websocket client need a handshake callback for protocol data.
 Both clients use [component](https://github.com/component/component/) package manager for building.
 
-##Usage
+## Usage
 
 ### connect to the server
 ``` javascript
@@ -24,6 +24,7 @@ example:
     host: host,
     port: port,
     user: {},
+    reconnect: true,
     handshakeCallback : function(){}
   }, function() {
     console.log('success');
@@ -70,7 +71,7 @@ example:
 pomelo.disconnect();
 ```  
 
-##License
+## License
 (The MIT License)
 
 Copyright (c) 2012-2015 NetEase, Inc. and other contributors
