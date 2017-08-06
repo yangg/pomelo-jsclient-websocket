@@ -10,6 +10,11 @@ Since there are two kind connectors in pomelo 0.3, socket.io and socket(websocke
 The apis are almost the same in both clients, except websocket client need a handshake callback for protocol data.
 Both clients use [component](https://github.com/component/component/) package manager for building.
 
+## Installation
+```bash
+npm install @brook/pomelo-jsclient-websocket
+```
+
 ## Usage
 
 ### connect to the server
