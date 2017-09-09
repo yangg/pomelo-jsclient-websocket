@@ -1,6 +1,6 @@
 {
   "name": "@brook/pomelo-jsclient-websocket",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "pomelo jsclient for browser websocket",
   "main": "lib/pomelo-client.js",
   "repository": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@brook/pomelo-protocol": "^0.2.0",
-    "emitter": "0.0.5",
-    "pomelo-protobuf": "^0.4.0"
+    "pomelo-protobuf": "^0.4.0",
+    "wolfy87-eventemitter": "^5.2.2"
   }
 }
