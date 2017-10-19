@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/yangg/pomelo-jsclient-websocket"
   },
+  "scripts": {
+    "postversion": "git push && npm_config_registry=https://registry.npmjs.org/ npm publish --access public"
+  },
   "keywords": [
     "pomelo",
     "jsclient",
