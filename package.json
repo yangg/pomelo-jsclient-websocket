@@ -1,6 +1,6 @@
 {
   "name": "@brook/pomelo-jsclient-websocket",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "pomelo jsclient for browser websocket",
   "main": "lib/pomelo-client.js",
   "repository": {
